@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/a178743e1f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Quiz Me - History Quiz</title>
+</head>
+<body>
+    <header>
+        <a id="logo-link"href="index.html">
+            <h1 id="logo">Quiz Me
+            <i class="fa-solid fa-question fa-beat" style="color: #3a82fd; padding-top: 11px; padding-left:5px;"></i>
+            </h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">General Quiz</a>
+                </li>
+                <li>
+                    <a href="sport-quiz.html">Sport Quiz</a>
+                </li>
+                <li>
+                    <a href="history-quiz.html">History Quiz</a>
+                </li>
+            </ul>
+        </nav>   
+    </header>
+    <main>
+        <div class="welcome">
+            <h2>Welcome to Quiz Me - History!</h2>
+            <p>Travel back in time and explore the depths of human history with our History Quiz at Quiz Me! If you're fascinated by the stories of the past, from ancient civilizations to modern events, our History Quiz will challenge your knowledge and take you on a journey through the annals of time.
+            </p>
+        </div>
+        <div class="quiz-container">
+            <h2 id="question">Question goes here</h2> 
+            <div id="answers">
+    
+            </div>
+            
+            <div id="result-container">
+                <p id="result-message"></p>
+                <p id="score">Score: <span id="score-value">0</span></p>
+                <button id="play-again-button" class="btn">Play Again</button>
+            </div>
+        </div>    
+        <div class="next-quiz">
+            <p>We hope you enjoyed our History quiz! How about you try out another!</p><br>
+            <p>Here we have the tricky <a href="sport-quiz.html">Sport Quiz</a> that will test your knowledge of sports.</p><br>
+            <p>Or if you'd prefer to test your general knowledge, our <a href="index.html">General Knowledge Quiz</a> is the one for you.</p>
+        </div>
+    </main>
+    <script src="assets/js/historyQuiz.js"></script>
+</body>
+</html>
