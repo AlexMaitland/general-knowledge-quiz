@@ -48,3 +48,18 @@ function displayQuestion() {
         answersElement.appendChild(answerButton);
     });
 }
+
+// Function to handle click event on answer buttons
+function answerClick(event) {
+    let selectedAnswer = event.target.textContent;
+    let currentQuizData = quizData[currentQuestion];
+
+    if (selectedAnswer === currentQuizData.correctAnswer) {
+        event.target.classList.add("correct-answer");
+
+        incrementScore();
+    } else {
+        alert(`Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`);
+        event.target.classList.add("incorrect-answer")
+    }
+}
