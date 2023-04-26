@@ -44,3 +44,42 @@ body{
     text-decoration: none;
     color: #3a82fd;
 }
+
+.welcome{
+    margin: 60px 60px 0;
+}
+
+.welcome > h2,
+.welcome > p{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome > h2{
+    font-size: 200%;
+}
+
+.welcome > p{
+    padding-top: 30px;
+    font-size: 130%;
+}
+
+.quiz-container{
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 400px;
+    max-width: 830px;
+    background-color: #e8dccc;
+    border: 2px solid #cfc4b5;
+    margin: 30px auto 0;
+}
+
+#question{
+    color: #000;
+    margin-top: 20px;
+}
+
+#answers {
+    margin-top: 20px;
+}
