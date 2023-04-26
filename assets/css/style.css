@@ -3,9 +3,44 @@
     padding: 0;
     border: 0;
 }
+
 body{
     background-color: #faebd7;
     font-family: poppins, sans-serif;
     font-weight: 300;
     text-align: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 500%;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-size: 130%;
+}
+
+#menu li{
+    display: inline;
+    margin-right: 30px;
+} 
+
+#menu a, 
+#logo-link{
+    text-decoration: none;
+    color: #3a82fd;
+}
+
+#menu a, 
+#logo-link:visited{
+    text-decoration: none;
+    color: #3a82fd;
 }
