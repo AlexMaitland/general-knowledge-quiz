@@ -63,3 +63,20 @@ function answerClick(event) {
         event.target.classList.add("incorrect-answer")
     }
 }
+
+//Function to increment score by one when correct answer is given
+function incrementScore() {
+    let score = parseInt(document.getElementById('score-value').innerText);
+    document.getElementById('score-value').innerText = ++score;
+}
+
+//Function to show user result when quiz finishes
+function displayResults(){
+    let results = document.getElementById('result-message');
+    let scoreElement = document.getElementById('score-value');
+
+    let score = parseInt(scoreElement.innerText);
+    let percentage = Math.floor(100*(score / quizData.length));
+    console.log(results)
+    results.innerText = "Quiz completed! Your score: " + percentage + "%";
+}
