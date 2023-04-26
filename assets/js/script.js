@@ -29,6 +29,8 @@ let quizData =
 let currentQuestion = 0; // Variable to keep track of current question index
 
 const playAgainButton = document.getElementById("play-again-button");
+playAgainButton.addEventListener("click", resetQuiz);
+
 
 // Function to display the current question
 function displayQuestion() {
@@ -80,3 +82,19 @@ function displayResults(){
     console.log(results)
     results.innerText = "Quiz completed! Your score: " + percentage + "%";
 }
+
+//Function to reset quiz when Play Again button is pressed
+function resetQuiz(){
+    currentQuestion = 0;
+    let score = parseInt(document.getElementById('score-value').innerText);
+    document.getElementById('score-value').innerText = score - score;
+
+    let results = document.getElementById('result-message');
+    results.innerText = " "; //Clear the result section when replaying
+
+
+    displayQuestion();
+}
+
+// Start the quiz by displaying the first question
+displayQuestion();
