@@ -83,3 +83,28 @@ body{
 #answers {
     margin-top: 20px;
 }
+
+#play-again-button{
+    width: 175px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: #717171;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#result-message{
+    margin-top: 20px;
+}
+
+.next-quiz{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.next-quiz > p{
+    font-size: 130%;
+}
