@@ -64,6 +64,16 @@ function answerClick(event) {
         alert(`Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`);
         event.target.classList.add("incorrect-answer")
     }
+
+    setTimeout(function() {
+        currentQuestion++;
+        if (currentQuestion < quizData.length) {
+            displayQuestion();
+        } else {
+            alert("Quiz completed!");
+            displayResults();
+        }
+        }, 2000);
 }
 
 //Function to increment score by one when correct answer is given
