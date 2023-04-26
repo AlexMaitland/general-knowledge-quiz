@@ -25,3 +25,26 @@ let quizData =
         correctAnswer: '12'
     }
     ];
+
+let currentQuestion = 0; // Variable to keep track of current question index
+
+const playAgainButton = document.getElementById("play-again-button");
+
+// Function to display the current question
+function displayQuestion() {
+    let questionElement = document.getElementById("question");
+    let answersElement = document.getElementById("answers");
+    let currentQuizData = quizData[currentQuestion];
+
+    questionElement.textContent = currentQuizData.question;
+    answersElement.innerHTML = ""; // Clear previous answers
+
+    // Create answer buttons for each answer in the current question
+    currentQuizData.answers.forEach(answer => {
+        let answerButton = document.createElement("button");
+        answerButton.textContent = answer;
+        answerButton.classList.add("answer");
+        answerButton.addEventListener("click", answerClick);
+        answersElement.appendChild(answerButton);
+    });
+}
