@@ -128,3 +128,14 @@ body{
 .incorrect-answer{
     background-color: #ff0000;
 }
+
+.answer:hover{
+    background-color: #e0e0e0;
+}
+
+.correct-answer:hover{
+    background-color: #90ee90;
+}
+.incorrect-answer:hover{
+    background-color: #ff0000;
+}
