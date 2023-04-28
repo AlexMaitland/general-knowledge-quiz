@@ -54,6 +54,14 @@ let quizData = [
 let currentQuestion = 0; // Variable to keep track of current question index
 const playAgainButton = document.getElementById("play-again-button");
 playAgainButton.addEventListener("click", resetQuiz);
+let results = document.getElementById('result-message');
+
+// creates a random congratulation message
+const wellDone = () => {
+    let responses = ['Correct', 'Wow! Well done - that one was hard!', 'Brilliant stuff', 'Was that a guess? Way to go!', 'Congrats', 'I will give you a point for that', 'Unbelievable!', 'You rock'];
+    let randInt = Math.floor(Math.random() * responses.length)
+    return responses[randInt]
+}
 
 // Function to display the current question
 function displayQuestion() {
@@ -81,6 +89,7 @@ function answerClick(event) {
 
     if (selectedAnswer === currentQuizData.correctAnswer) {
         event.target.classList.add("correct-answer");
+        results.textContent = wellDone();
         incrementScore();
     } else {
         alert(`Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`);
