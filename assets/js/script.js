@@ -68,7 +68,7 @@ function answerClick(event) {
         results.textContent = wellDone();
         incrementScore();
     } else {
-        alert(`Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`);
+        results.textContent = `Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`;
         event.target.classList.add("incorrect-answer")
     }
 
