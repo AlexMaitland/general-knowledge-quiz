@@ -66,10 +66,8 @@ body{
 
 .quiz-container{
     box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 400px;
-    max-width: 830px;
+    max-height: 500px;
+    max-width: 65%;
     background-color: #e8dccc;
     border: 2px solid #cfc4b5;
     margin: 30px auto 0;
@@ -83,6 +81,10 @@ body{
 #answers {
     margin-top: 20px;
 }
+
+#result-container{
+    padding-bottom: 20px;
+  }
 
 #play-again-button{
     width: 175px;
@@ -138,4 +140,70 @@ body{
 }
 .incorrect-answer:hover{
     background-color: #ff0000;
+}
+
+/* Responsiveness on tablet screen sizes */
+
+@media screen and (max-width: 1000px){
+    #question{
+        font-size: 1.3em;
+    }
+
+    #answer{
+        font-size: 15px;
+    }
+}
+
+/* Responsiveness on mobile screen sizes */
+
+@media screen and (max-width: 700px){
+    .quiz-container{
+        max-width: 90%;
+    }
+
+    #logo{
+        margin-left: 0;
+        font-size: 400%;
+    }
+
+    #menu {
+        letter-spacing: 0px;
+        font-size: 110%;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    .welcome {
+        margin: 60px 20px 0;
+    }
+
+    .welcome > h2 {
+        font-size: 160%;
+    }
+
+    .welcome > p {
+        font-size: 110%;
+        text-align: left;
+    }
+
+    #question {
+        font-size: 1.2em;
+    }
+
+    .answer {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .next-quiz {
+        margin: 30px 20px 0;
+    }
+
+    .next-quiz > p {
+        font-size: 110%;
+        text-align: left;
+    }
+    
 }
