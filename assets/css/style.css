@@ -103,8 +103,7 @@ body{
 }
 
 .next-quiz{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 60px;
 }
 
 .next-quiz > p{
@@ -122,6 +121,21 @@ body{
     border-radius: 20px;
     cursor: pointer;
   }
+
+  footer {
+    background-color: #1f1e1e;
+    color: #faebd7;
+}
+
+.footer-div {
+    padding-top: 10px;
+}
+
+.social-list > li {
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+}
 
   .correct-answer{
     background-color: #90ee90
@@ -198,7 +212,7 @@ body{
     }
 
     .next-quiz {
-        margin: 30px 20px 0;
+        margin: 30px 20px;
     }
 
     .next-quiz > p {
