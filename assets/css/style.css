@@ -35,6 +35,12 @@ body{
     margin-right: 30px;
 } 
 
+#menu li :hover{
+    box-shadow: inset 200px 0 0 0 #3a82fd;
+    color: #faebd7;
+    background-color: #3a82fd;
+}
+
 #menu a, 
 #logo-link{
     text-decoration: none;
