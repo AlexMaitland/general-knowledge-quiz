@@ -1,4 +1,4 @@
-![logo](https://user-images.githubusercontent.com/122832821/235623180-19b80197-3be5-4ca5-adb9-13cfae1196b6.jpeg)
+![logo](https://user-images.githubusercontent.com/122832821/235694134-1c4462c9-3146-41c1-9e30-4dbd13b1ffe4.jpeg)
 
 Quiz Me is a site which provides its users the option of three quizzes. The main goal is to provide the user with a fun and educational experience with the three choices of quiz. The user can replay the each quiz as many times as they wish and receive feedback on how they did after each go. The site is aimed at anybody of any age who wishes to have fun and test their general knowledge, history and sports quiz skills. 
 
@@ -11,7 +11,7 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
   
   * The logo is also a link which can be pressed by the user at any time to bring back to the home page.
 
-![logo nav](https://user-images.githubusercontent.com/122832821/235628669-ccc5d5e1-97b5-43a4-b111-fcf1915bbace.jpeg)
+![nav1](https://user-images.githubusercontent.com/122832821/235694313-10d2cf38-b207-4006-9e23-155bfc288a09.jpeg)
 
 * Navigation Bar
   * The fully responsive navigation bar is positioned directly below the logo which allows the user to quickly and effortlessly transition   between the different quiz pages.
@@ -23,29 +23,27 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
   
   * This provides a nice transition to our first quiz, positioned on the homepage, the General Knowledge quiz.
 
-![quiz-container](https://user-images.githubusercontent.com/122832821/235628999-3aebc751-99f6-4972-927b-d130e4e806c9.jpeg)
+![quiz container](https://user-images.githubusercontent.com/122832821/235694630-e10f5245-1013-4bc8-a48d-6cb639f7c0d3.jpeg)
 
 * The Quiz
   * The General Knowledge quiz is short in length and provides the user a taste of what to expect with the other quizzes available and is found on the home page. The other two quizzes are more specific and focus on Sport & History. There are more questions in both of these, however, the structure of the quizzes are all the same.
   
   * When a correct answer is given, the answer is highlighted green and 1 point is added to the users score shown just below the answers.
   
-  ![quiz - correct answer](https://user-images.githubusercontent.com/122832821/235629086-0f6b4c68-29aa-4313-ad8a-a8573f6f9b5d.jpeg)
-  
+  ![correct-answer](https://user-images.githubusercontent.com/122832821/235694741-ace85c73-4f89-4bee-82bf-7029ef837806.jpeg)
+
   * A congratulatory message is also given to the user when they input a correct answer which is chosen randomly from an array of options.
   
   * Should the user input an incorrect answer the answer provided is highlighted in red. There will also be a message which pops up confirming that an incorrect response was provided and confirms what the correct answer was.
   
-  ![incorrect answer](https://user-images.githubusercontent.com/122832821/235629243-695ff6e8-8f6f-4359-af62-ff2413aad590.jpeg)
+![incorrect](https://user-images.githubusercontent.com/122832821/235694822-f41b7e50-1b6a-473c-88c0-5cd37ce343e6.jpeg)
 
   * Once the quiz has been completed an alert will show at the top to confirm the quiz is over and the users score is provided as a percentage at the bottom of the quiz. The score is given in this way to provide a competitive element to the quiz so the user can choose to play the quiz again to beat their score.
   
-  ![before play again pressed](https://user-images.githubusercontent.com/122832821/235631349-b17f1308-5f20-4148-b4ee-244389f59e0a.jpeg)
+![result](https://user-images.githubusercontent.com/122832821/235694890-d9a82903-eba6-421a-97e4-dba09e94f4a5.jpeg)
 
   * The Play Again button is provided at the bottom of the quiz container and can be pressed any time that the user wishes to start the quiz over. The button resets the score to 0 and removes any message shown above the score.
   
-![after-play-again-pressed](https://user-images.githubusercontent.com/122832821/235631385-ecc14f90-84c2-45e4-a975-e5add1f8633a.jpeg)
-
 * Next Quiz Section
   * Under the quiz there is a section which thanks the user for completing the quiz and provides an option of playing another one of our quizzes. The idea of the site is to have the user have a go at each one of our quizzes and so providing easy access to the others makes sense.
   
