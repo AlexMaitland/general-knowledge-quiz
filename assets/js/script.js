@@ -35,8 +35,8 @@ let results = document.getElementById('result-message');
 // creates a random congratulation message
 const wellDone = () => {
     let responses = ['Correct', 'Wow! Well done - that one was hard!', 'Brilliant stuff', 'Was that a guess? Way to go!', 'Congrats', 'I will give you a point for that', 'Unbelievable!', 'You rock'];
-    let randInt = Math.floor(Math.random() * responses.length)
-    return responses[randInt]
+    let randInt = Math.floor(Math.random() * responses.length);
+    return responses[randInt];
 }
 
 // Function to display the current question
@@ -69,7 +69,7 @@ function answerClick(event) {
         incrementScore();
     } else {
         results.textContent = `Incorrect. The correct answer is: ${currentQuizData.correctAnswer}`;
-        event.target.classList.add("incorrect-answer")
+        event.target.classList.add("incorrect-answer");
     }
 
     setTimeout(function() {
@@ -95,7 +95,6 @@ function displayResults(){
 
     let score = parseInt(scoreElement.innerText);
     let percentage = Math.floor(100*(score / quizData.length));
-    console.log(results)
     results.innerText = "Quiz completed! Your score: " + percentage + "%";
 }
 
