@@ -79,16 +79,16 @@ HTML & CSS have both been tested using W3C Validator. CSS was returned with no e
   4. Go to "Settings" which is found on the right hand side of the tab.
   5. On the left hand side select pages & select the main branch as the source.
   6. Once the main branch has been selected, the page should refresh with details of the deployment including the unique URL.
-  7. The page can be found using the following link: https://alexmaitland.github.io/general-knowledge-quiz/ 
+  7. The page can be found using the [link]: (https://alexmaitland.github.io/general-knowledge-quiz/) 
 
 ## **CREDITS**
 
 ### **Content**
 
-  * Initial styling was inspired from the Love Maths walk through project. The repository can be found here… 
-  * Social media & question mark icons were sourced from Font Awesome
-  * The font Poppins was imported from Google Fonts
-  * I went back to Code Academy for further training on Javascript as I wasn’t confident with my understanding of certain elements. This helped massively - especially with the creation of the displayQuestion function where we create answer buttons for each multiple choice answer.
+  * Initial styling was inspired from the Love Maths walk through project. The repository can be found [here](https://github.com/AlexMaitland/love-maths.git)
+  * Social media & question mark icons were sourced from [Font Awesome](https://fontawesome.com/)
+  * The font Poppins was imported from [Google Fonts](https://fonts.google.com/)
+  * I went back to [Code Academy](https://www.codecademy.com/learn) for further training on Javascript as I wasn’t confident with my understanding of certain elements. This helped massively - especially with the creation of the displayQuestion function where we create answer buttons for each multiple choice answer.
 
 
 	
