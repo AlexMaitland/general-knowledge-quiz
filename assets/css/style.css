@@ -17,6 +17,7 @@ body{
     margin-left: 30px;
     margin-top: 30px;
     font-size: 500%;
+    color: #000;
 }
 
 #menu{
@@ -26,6 +27,7 @@ body{
     letter-spacing: 2px;
     margin-top: 30px;
     font-size: 130%;
+    color: #000;
 }
 
 #menu li{
@@ -36,13 +38,12 @@ body{
 #menu a, 
 #logo-link{
     text-decoration: none;
-    color: #3a82fd;
 }
 
 #menu a, 
 #logo-link:visited{
     text-decoration: none;
-    color: #3a82fd;
+    color: #000;
 }
 
 .welcome{
@@ -68,17 +69,19 @@ body{
     box-sizing: border-box;
     max-height: 500px;
     max-width: 65%;
-    background-color: #e8dccc;
-    border: 2px solid #cfc4b5;
+    background-image: url(../images/pexels-olia-danilevich-5088017.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    border: 2px solid #cfc4b5;
     margin: 30px auto 0;
 }
 
 #question{
-    color: #000;
+    color: #f0f8ff;
     margin-top: 20px;
 }
 
-#answers {
+#answers{
     margin-top: 20px;
 }
 
@@ -93,13 +96,18 @@ body{
 }
 
 .btn{
-    background-color: #717171;
-    color: #fff;
+    background-color: #717171ae;
+    color: #f0f8ff;
     border-radius: 20px;
 }
 
 #result-message{
     margin-top: 20px;
+    color: #f0f8ff;
+}
+
+#score{
+    color: #f0f8ff;
 }
 
 .next-quiz{
@@ -110,13 +118,13 @@ body{
     font-size: 130%;
 }
 
-.answer {
+.answer{
     width: 60%;
     padding: 10px;
     margin-top: 5px;
     font-size: 16px;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0b5;
     border: 1px solid #cfc4b5;
     border-radius: 20px;
     cursor: pointer;
