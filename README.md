@@ -79,7 +79,7 @@ HTML & CSS have both been tested using W3C Validator. CSS was returned with no e
   4. Go to "Settings" which is found on the right hand side of the tab.
   5. On the left hand side select pages & select the main branch as the source.
   6. Once the main branch has been selected, the page should refresh with details of the deployment including the unique URL.
-  7. The page can be found using the following link: 
+  7. The page can be found using the following link: https://alexmaitland.github.io/general-knowledge-quiz/ 
 
 ## **CREDITS**
 
