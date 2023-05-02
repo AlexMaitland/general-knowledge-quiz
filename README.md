@@ -25,8 +25,8 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
 
 ![quiz-container](https://user-images.githubusercontent.com/122832821/235628999-3aebc751-99f6-4972-927b-d130e4e806c9.jpeg)
 
-* General Knowledge Quiz
-  * This quiz is short in length and provides the user a taste of what to expect with the other quizzes available. 
+* The Quiz
+  * The General Knowledge quiz is short in length and provides the user a taste of what to expect with the other quizzes available and is found on the home page. The other two quizzes are more specific and focus on Sport & History. There are more questions in both of these, however, the structure of the quizzes are all the same.
   
   * When a correct answer is given, the answer is highlighted green and 1 point is added to the users score shown just below the answers.
   
@@ -86,6 +86,7 @@ HTML & CSS have both been tested using W3C Validator. CSS was returned with no e
 ### **Content**
 
   * Initial styling was inspired from the Love Maths walk through project. The repository can be found [here](https://github.com/AlexMaitland/love-maths.git)
+  * The quiz questions were generated using the [Open Trivia Database](https://opentdb.com/api_config.php). I was able to select the topic, the multiple choice and the difficulty. All three quizzes are of mixed difficulty but follow the same multiple choice theme.
   * Social media & question mark icons were sourced from [Font Awesome](https://fontawesome.com/)
   * The font Poppins was imported from [Google Fonts](https://fonts.google.com/)
   * I went back to [Code Academy](https://www.codecademy.com/learn) for further training on Javascript as I wasn’t confident with my understanding of certain elements. This helped massively - especially with the creation of the displayQuestion function where we create answer buttons for each multiple choice answer.
