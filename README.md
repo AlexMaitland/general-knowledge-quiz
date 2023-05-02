@@ -23,10 +23,10 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
   
   * This provides a nice transition to our first quiz, positioned on the homepage, the General Knowledge quiz.
 
-![quiz container](https://user-images.githubusercontent.com/122832821/235694630-e10f5245-1013-4bc8-a48d-6cb639f7c0d3.jpeg)
-
 * The Quiz
-  * The General Knowledge quiz is short in length and provides the user a taste of what to expect with the other quizzes available and is found on the home page. The other two quizzes are more specific and focus on Sport & History. There are more questions in both of these, however, the structure of the quizzes are all the same.
+  * The General Knowledge quiz is short in length and provides the user a taste of what to expect with the other quizzes available and is found on the home page. The other two quizzes are more specific and focus on Sport & History. There are more questions in both of these, however, the structure of the quizzes are all the same. There is a background image in the quiz container which makes this section really stand out as to the user. This is the area that we really want to highlight as it is the main feature of each page. The text color was changed for this section for readability purposes.
+
+![quiz container](https://user-images.githubusercontent.com/122832821/235694630-e10f5245-1013-4bc8-a48d-6cb639f7c0d3.jpeg)
   
   * When a correct answer is given, the answer is highlighted green and 1 point is added to the users score shown just below the answers.
   
@@ -87,6 +87,7 @@ HTML & CSS have both been tested using W3C Validator. CSS was returned with no e
   * The quiz questions were generated using the [Open Trivia Database](https://opentdb.com/api_config.php). I was able to select the topic, the multiple choice and the difficulty. All three quizzes are of mixed difficulty but follow the same multiple choice theme.
   * Social media & question mark icons were sourced from [Font Awesome](https://fontawesome.com/)
   * The font Poppins was imported from [Google Fonts](https://fonts.google.com/)
+  * The background image of the quiz was downloaded from [Pexels](https://www.pexels.com/)
   * I went back to [Code Academy](https://www.codecademy.com/learn) for further training on Javascript as I wasn’t confident with my understanding of certain elements. This helped massively - especially with the creation of the displayQuestion function where we create answer buttons for each multiple choice answer.
 
 
