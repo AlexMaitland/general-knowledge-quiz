@@ -8,6 +8,7 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
 
 * Logo
   -The standout logo contains a pulsing question mark which stands out and promotes the fun aspect of the site.
+  
   -The logo is also a link which can be pressed by the user at any time to bring back to the home page.
 
 * Navigation Bar
@@ -15,14 +16,20 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
 
 * Intro
   -This section introduces the user to the site and provides the user some information on what to expect and who may enjoy the site’s features.
+  
   -This provides a nice transition to our first quiz, positioned on the homepage, the General Knowledge quiz.
 
 * General Knowledge Quiz
   -This quiz is short in length and provides the user a taste of what to expect with the other quizzes available. 
-  -When a correct answer is given, the answer is highlighted green and 1 point is added to the users score shown just below the answers. 
-  -A congratulatory message is also given to the user when they input a correct answer which is chosen randomly from an array of options. 
+  
+  -When a correct answer is given, the answer is highlighted green and 1 point is added to the users score shown just below the answers.
+  
+  -A congratulatory message is also given to the user when they input a correct answer which is chosen randomly from an array of options.
+  
   -Should the user input an incorrect answer the answer provided is highlighted in red. There will also be a message which pops up confirming that an incorrect response was provided and confirms what the correct answer was.
+  
   -Once the quiz has been completed an alert will show at the top to confirm the quiz is over and the users score is provided as a percentage at the bottom of the quiz. The score is given in this way to provide a competitive element to the quiz so the user can choose to play the quiz again to beat their score.
+  
   -The Play Again button is provided at the bottom of the quiz container and can be pressed any time that the user wishes to start the quiz over. The button resets the score to 0 and removes any message shown above the score.
 
 * Next Quiz Section
@@ -30,6 +37,7 @@ Quiz Me is a site which provides its users the option of three quizzes. The main
 
 * Footer
   -The footer includes links to social media channels used by Quiz Me where the user can find further information. 
+  
   -The social media links open in a new tab when selected and are accessible to visually impaired users.
 
 ## **TESTING**
