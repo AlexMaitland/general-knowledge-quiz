@@ -66,8 +66,10 @@ Throughout the creation of each element of the website, the quiz was tested to p
 
 The Javascript was passed through JSHint without any errors. There were warnings generated associated with the use of ‘let’, ‘const’ & arrow functions which it let me know were only available with ES6. There was also a few missing semi-colons which have since been addressed.
 
+![css testing](https://user-images.githubusercontent.com/122832821/235631761-6b29db95-7faf-41ce-9f3e-346ca3d996bf.jpeg)
+
 HTML & CSS have both been tested using W3C Validator. CSS was returned with no errors whilst the HTML did have one error. There was no space between the attributes of the logo’s anchor. This has been amended on each of the HTML pages. 
-![css testing](https://user-images.githubusercontent.com/122832821/235631761-6b29db95-7faf-41ce-9f3e-346ca3d996bf.jpeg)![html testing](https://user-images.githubusercontent.com/122832821/235631781-0465b42b-d64a-40b5-8d2a-745d1a16fc68.jpeg)
+![html testing](https://user-images.githubusercontent.com/122832821/235631781-0465b42b-d64a-40b5-8d2a-745d1a16fc68.jpeg)
 
 
 ## **DEPOLYMENT**
@@ -77,6 +79,7 @@ HTML & CSS have both been tested using W3C Validator. CSS was returned with no e
   4. Go to "Settings" which is found on the right hand side of the tab.
   5. On the left hand side select pages & select the main branch as the source.
   6. Once the main branch has been selected, the page should refresh with details of the deployment including the unique URL.
+  7. The page can be found using the following link: 
 
 ## **CREDITS**
 
