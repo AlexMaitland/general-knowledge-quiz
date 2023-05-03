@@ -9,6 +9,7 @@ body{
     font-family: poppins, sans-serif;
     font-weight: 300;
     text-align: center;
+    min-height: 100vh;
 }
 
 #logo{
@@ -139,6 +140,8 @@ body{
   footer {
     background-color: #717171;
     color: #faebd7;
+    position: sticky;
+    top: 100%;
 }
 
 .footer-div {
